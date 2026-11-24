@@ -1,0 +1,535 @@
+﻿
+:root {
+    --bg-main: #260913;
+    --bg-header: #390D1A;
+    --bg-card: #451426;
+    --bg-card-light: #52192E;
+    --bg-nav: #3A1020;
+    --bg-variant: #35101D;
+
+    --burgundy: #651D32;
+    --burgundy-light: #812B43;
+
+    --gold: #B9955D;
+    --gold-light: #E7C58C;
+    --gold-soft: #D8B77E;
+
+    --text-main: #F5E8D2;
+    --text-muted: #D0BDA7;
+
+    --unavailable: #D46A68;
+    --border-gold: rgba(185, 149, 93, 0.35);
+
+    --image-size: clamp(105px, 12vw, 155px);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    direction: rtl;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background:
+        radial-gradient(
+            circle at top,
+            #57182D 0%,
+            var(--bg-main) 48%,
+            #1E0710 100%
+        );
+
+    color: var(--text-main);
+
+    font-family:
+        "Vazirmatn",
+        Tahoma,
+        sans-serif;
+}
+
+button {
+    font-family: inherit;
+}
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+
+header {
+    position: relative;
+    padding: 34px 20px 28px;
+    text-align: center;
+
+    background:
+        radial-gradient(
+            ellipse at top,
+            #812B43 0%,
+            #4B1428 48%,
+            var(--bg-header) 100%
+        );
+
+    border-bottom: 1px solid var(--border-gold);
+}
+
+.logo {
+    color: var(--gold-light);
+    font-size: clamp(25px, 4vw, 42px);
+    font-weight: 900;
+    letter-spacing: -1px;
+}
+
+.header-caption {
+    margin-top: 10px;
+    color: var(--gold-soft);
+    font-size: 14px;
+}
+
+header .subtitle {
+    color: var(--text-muted);
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin-top: 7px;
+}
+
+/* =========================================================
+   NAVIGATION
+   ========================================================= */
+
+.category-nav,
+.subcategory-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 16px 18px;
+    background: var(--bg-nav);
+}
+
+.subcategory-nav {
+    padding-top: 4px;
+    padding-bottom: 16px;
+}
+
+.category-button,
+.subcategory-button {
+    border: 1px solid var(--border-gold);
+    border-radius: 30px;
+    padding: 9px 21px;
+    background: #4A172A;
+    color: var(--gold-soft);
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+
+    transition:
+        background 0.2s ease,
+        color 0.2s ease,
+        border-color 0.2s ease;
+}
+
+.subcategory-button {
+    padding: 7px 16px;
+    font-size: 13px;
+    background: #35101D;
+}
+
+.category-button:hover,
+.subcategory-button:hover {
+    background: var(--burgundy-light);
+    color: #FFF3DE;
+    border-color: var(--gold);
+}
+
+.category-button.active,
+.subcategory-button.active {
+    background: var(--gold);
+    color: #2B0B15;
+    border-color: var(--gold-light);
+}
+
+/* =========================================================
+   MENU HEADING
+   ========================================================= */
+
+.menu-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 24px 30px 12px;
+}
+
+#sectionTitle {
+    margin: 0;
+    color: var(--gold-light);
+    font-size: clamp(21px, 3vw, 30px);
+    font-weight: 900;
+}
+
+#itemCount {
+    color: var(--text-muted);
+    font-size: 13px;
+}
+
+/* =========================================================
+   MENU CONTAINER
+   ========================================================= */
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    padding: 20px 30px 45px;
+}
+
+.menu-group {
+    min-width: 0;
+}
+
+.group-title {
+    margin: 0 0 17px;
+    padding-right: 13px;
+    color: var(--gold-light);
+    font-size: 21px;
+    font-weight: 900;
+    border-right: 4px solid var(--gold);
+}
+
+/* =========================================================
+   ITEM GRID
+   ========================================================= */
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+    align-items: stretch;
+}
+
+/* =========================================================
+   MENU CARD
+   ========================================================= */
+
+.menu-card {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 0;
+
+    min-width: 0;
+    min-height: var(--image-size);
+
+    overflow: hidden;
+
+    background:
+        linear-gradient(
+            135deg,
+            var(--bg-card-light),
+            var(--bg-card)
+        );
+
+    border: 1px solid var(--border-gold);
+    border-radius: 17px;
+
+    box-shadow:
+        0 6px 18px rgba(15, 2, 7, 0.2);
+}
+
+/* =========================================================
+   UNIFORM SQUARE IMAGE
+   ========================================================= */
+
+.menu-image {
+    position: relative;
+
+    flex: 0 0 var(--image-size);
+
+    width: var(--image-size);
+    height: var(--image-size);
+    min-width: var(--image-size);
+    min-height: var(--image-size);
+    max-width: var(--image-size);
+    max-height: var(--image-size);
+
+    align-self: center;
+
+    overflow: hidden;
+
+    background:
+        linear-gradient(
+            145deg,
+            #67243B,
+            #35101D
+        );
+}
+.menu-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    padding: 5px;
+}
+
+.image-placeholder {
+    background:
+        radial-gradient(
+            circle at center,
+            #753047,
+            #35101D
+        );
+}
+
+/* =========================================================
+   CARD CONTENT
+   ========================================================= */
+
+.menu-card-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+
+    min-width: 0;
+
+    padding: 15px 17px;
+}
+
+.menu-item-name {
+    margin: 0 0 8px;
+    color: var(--gold-light);
+    font-size: clamp(15px, 1.4vw, 19px);
+    font-weight: 900;
+    line-height: 1.7;
+}
+
+.menu-item-description {
+    margin: 0 0 12px;
+    color: var(--text-muted);
+    font-size: 12px;
+    line-height: 1.9;
+}
+
+/* =========================================================
+   VARIANTS
+   ========================================================= */
+
+.variants {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 5px;
+}
+
+.variant-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    min-width: 0;
+    padding: 7px 10px;
+
+    background: var(--bg-variant);
+    border: 1px solid rgba(185, 149, 93, 0.18);
+    border-radius: 9px;
+}
+
+.variant-name {
+    flex: 0 0 auto;
+    color: var(--gold-soft);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.variant-price-box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 6px;
+    min-width: 0;
+}
+
+.variant-price {
+    color: var(--gold-light);
+    font-size: 13px;
+    font-weight: 900;
+    white-space: nowrap;
+}
+
+.unavailable {
+    opacity: 0.75;
+}
+
+.unavailable .variant-price {
+    color: var(--text-muted);
+    text-decoration: line-through;
+}
+
+.unavailable-stamp {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 8px;
+
+    color: #FFE2DE;
+    background: rgba(164, 48, 55, 0.35);
+    border: 1px solid var(--unavailable);
+    border-radius: 6px;
+
+    font-size: 10px;
+    font-weight: 900;
+    white-space: nowrap;
+}
+
+/* =========================================================
+   STATUS
+   ========================================================= */
+
+#menuStatus {
+    padding: 35px 20px;
+    text-align: center;
+    color: var(--gold-soft);
+    font-size: 15px;
+}
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+footer {
+    padding: 24px 15px;
+    text-align: center;
+    color: var(--text-muted);
+    background: #210811;
+    border-top: 1px solid var(--border-gold);
+    font-size: 12px;
+}
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 1000px) {
+    :root {
+        --image-size: clamp(95px, 12vw, 125px);
+    }
+
+    .menu-container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .menu-grid {
+        gap: 13px;
+    }
+
+    .menu-card-content {
+        padding: 12px;
+    }
+
+    .variant-row {
+        padding: 6px 8px;
+    }
+}
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 760px) {
+    :root {
+        --image-size: clamp(105px, 30vw, 135px);
+    }
+
+    header {
+        padding: 27px 15px 22px;
+    }
+
+    .category-nav,
+    .subcategory-nav {
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding: 13px 14px;
+        scrollbar-width: none;
+    }
+
+    .category-nav::-webkit-scrollbar,
+    .subcategory-nav::-webkit-scrollbar {
+        display: none;
+    }
+
+    .category-button,
+    .subcategory-button {
+        flex: 0 0 auto;
+        white-space: nowrap;
+    }
+
+    .menu-heading {
+        padding: 20px 16px 10px;
+    }
+
+    .menu-container {
+        padding: 16px 14px 35px;
+        gap: 25px;
+    }
+
+    .menu-grid {
+        grid-template-columns: 1fr;
+        gap: 13px;
+    }
+
+    .menu-card {
+        min-height: var(--image-size);
+    }
+
+    .menu-card-content {
+        padding: 11px 12px;
+    }
+
+    .menu-item-name {
+        font-size: 15px;
+    }
+
+    .menu-item-description {
+        font-size: 11px;
+    }
+
+    .variant-name {
+        font-size: 11px;
+    }
+
+    .variant-price {
+        font-size: 12px;
+    }
+}
+
+/* =========================================================
+   SMALL MOBILE
+   ========================================================= */
+
+@media (max-width: 380px) {
+    :root {
+        --image-size: 105px;
+    }
+
+    .menu-card-content {
+        padding: 9px;
+    }
+
+    .variant-row {
+        gap: 5px;
+        padding: 5px 7px;
+    }
+
+    .variant-price {
+        font-size: 11px;
+    }
+}

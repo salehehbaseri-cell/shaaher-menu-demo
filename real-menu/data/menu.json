@@ -1,0 +1,1214 @@
+{
+    "generatedAt":  "2026-11-24T11:04:00.637Z",
+    "salads":  [
+
+               ],
+    "appetizers":  [
+                       {
+                           "name":  "پيش غذا شاهر",
+                           "items":  [
+                                         {
+                                             "name":  "نان سير",
+                                             "description":  "",
+                                             "image":  "",
+                                             "category":  "",
+                                             "categoryColor":  "#FFFFFF",
+                                             "variants":  [
+                                                              {
+                                                                  "name":  "کلاسيکو",
+                                                                  "price":  278,
+                                                                  "available":  true
+                                                              }
+                                                          ]
+                                         }
+                                     ]
+                       }
+                   ],
+    "drinks":  [
+                   {
+                       "name":  "نوشيدني شاهر",
+                       "items":  [
+                                     {
+                                         "name":  "نوشابه فانتا",
+                                         "description":  "",
+                                         "image":  "images/drink/223.png",
+                                         "category":  "",
+                                         "categoryColor":  "#FFFFFF",
+                                         "variants":  [
+                                                          {
+                                                              "name":  "شيشه اي",
+                                                              "price":  76.6,
+                                                              "available":  true
+                                                          },
+                                                          {
+                                                              "name":  "بطري کوچک",
+                                                              "price":  55,
+                                                              "available":  true
+                                                          }
+                                                      ]
+                                     },
+                                     {
+                                         "name":  "نوشابه اسپرايت",
+                                         "description":  "",
+                                         "image":  "images/drink/224.png",
+                                         "category":  "",
+                                         "categoryColor":  "#FFFFFF",
+                                         "variants":  [
+                                                          {
+                                                              "name":  "شيشه اي",
+                                                              "price":  76.6,
+                                                              "available":  false
+                                                          },
+                                                          {
+                                                              "name":  "بطري کوچک",
+                                                              "price":  55,
+                                                              "available":  true
+                                                          }
+                                                      ]
+                                     },
+                                     {
+                                         "name":  "نوشابه کوکاکولا",
+                                         "description":  "",
+                                         "image":  "images/drink/258.png",
+                                         "category":  "",
+                                         "categoryColor":  "#FFFFFF",
+                                         "variants":  [
+                                                          {
+                                                              "name":  "بطري کوچک",
+                                                              "price":  55,
+                                                              "available":  true
+                                                          }
+                                                      ]
+                                     },
+                                     {
+                                         "name":  "ليموناد",
+                                         "description":  "",
+                                         "image":  "images/drink/260.png",
+                                         "category":  "",
+                                         "categoryColor":  "#FFFFFF",
+                                         "variants":  [
+                                                          {
+                                                              "name":  "بطري کوچک",
+                                                              "price":  55,
+                                                              "available":  false
+                                                          }
+                                                      ]
+                                     },
+                                     {
+                                         "name":  "آب معدني",
+                                         "description":  "",
+                                         "image":  "images/drink/269.png",
+                                         "category":  "",
+                                         "categoryColor":  "#FFFFFF",
+                                         "variants":  [
+                                                          {
+                                                              "name":  "بطري کوچک",
+                                                              "price":  25,
+                                                              "available":  true
+                                                          }
+                                                      ]
+                                     }
+                                 ]
+                   }
+               ],
+    "foods":  [
+                  {
+                      "name":  "پيتزا شاهر",
+                      "items":  [
+                                    {
+                                        "name":  "پيتزا پپروني",
+                                        "description":  "",
+                                        "image":  "images/food/254.png",
+                                        "category":  "فرآوری",
+                                        "categoryColor":  "#D1B79A",
+                                        "variants":  [
+                                                         {
+                                                             "name":  "سولو",
+                                                             "price":  394,
+                                                             "available":  true
+                                                         },
+                                                         {
+                                                             "name":  "کلاسيکو",
+                                                             "price":  587,
+                                                             "available":  false
+                                                         }
+                                                     ]
+                                    },
+                                    {
+                                        "name":  "پيتزا بيکن آتور",
+                                        "description":  "",
+                                        "image":  "images/food/253.png",
+                                        "category":  "فرآوری",
+                                        "categoryColor":  "#D1B79A",
+                                        "variants":  [
+                                                         {
+                                                             "name":  "سولو",
+                                                             "price":  449,
+                                                             "available":  true
+                                                         },
+                                                         {
+                                                             "name":  "کلاسيکو",
+                                                             "price":  623,
+                                                             "available":  false
+                                                         }
+                                                     ]
+                                    },
+                                    {
+                                        "name":  "پيتزا چيکن پستو",
+                                        "description":  "",
+                                        "image":  "images/food/276.png",
+                                        "category":  "ماکیان",
+                                        "categoryColor":  "#E6C58F",
+                                        "variants":  [
+                                                         {
+                                                             "name":  "سولو",
+                                                             "price":  449,
+                                                             "available":  true
+                                                         },
+                                                         {
+                                                             "name":  "کلاسيکو",
+                                                             "price":  618,
+                                                             "available":  false
+                                                         }
+                                                     ]
+                                    },
+                                    {
+                                        "name":  "پيتزا کاپريچيوسا",
+                                        "description":  "",
+                                        "image":  "images/food/255.png",
+                                        "category":  "فرآوری",
+                                        "categoryColor":  "#D1B79A",
+                                        "variants":  [
+                                                         {
+                                                             "name":  "سولو",
+                                                             "price":  374,
+                                                             "available":  true
+                                                         },
+                                                         {
+                                                             "name":  "کلاسيکو",
+                                                             "price":  538,
+                                                             "available":  false
+                                                         }
+                                                     ]
+                                    },
+                                    {
+                                        "name":  "پيتزا چيکن آلفردو",
+                                        "description":  "",
+                                        "image":  "images/food/250.png",
+                                        "category":  "ماکیان",
+                                        "categoryColor":  "#E6C58F",
+                                        "variants":  [
+                                                         {
+                                                             "name":  "کلاسيکو",
+                                                             "price":  634,
+                                                             "available":  false
+                                                         }
+                                                     ]
+                                    },
+                                    {
+                                        "name":  "پيتزا بردکت",
+                                        "description":  "",
+                                        "image":  "images/food/251.png",
+                                        "category":  "ماکیان",
+                                        "categoryColor":  "#E6C58F",
+                                        "variants":  [
+                                                         {
+                                                             "name":  "کلاسيکو",
+                                                             "price":  658,
+                                                             "available":  false
+                                                         }
+                                                     ]
+                                    },
+                                    {
+                                        "name":  "پيتزا وجترينا",
+                                        "description":  "",
+                                        "image":  "images/food/325.png",
+                                        "category":  "سبزیجات",
+                                        "categoryColor":  "#B7CEA4",
+                                        "variants":  [
+                                                         {
+                                                             "name":  "کلاسيکو",
+                                                             "price":  498,
+                                                             "available":  false
+                                                         },
+                                                         {
+                                                             "name":  "سولو",
+                                                             "price":  349,
+                                                             "available":  true
+                                                         }
+                                                     ]
+                                    }
+                                ]
+                  },
+                  {
+                      "name":  "اسنک شاهر",
+                      "items":  [
+                                    {
+                                        "name":  "بيف اسنک",
+                                        "description":  "",
+                                        "image":  "images/food/185.png",
+                                        "category":  "گوشتی ها",
+                                        "categoryColor":  "#DFA9AD",
+                                        "variants":  [
+                                                         {
+                                                             "name":  ".",
+                                                             "price":  396,
+                                                             "available":  false
+                                                         }
+                                                     ]
+                                    },
+                                    {
+                                        "name":  "چيکن اسنک",
+                                        "description":  "",
+                                        "image":  "images/food/186.png",
+                                        "category":  "ماکیان",
+                                        "categoryColor":  "#E6C58F",
+                                        "variants":  [
+                                                         {
+                                                             "name":  ".",
+                                                             "price":  372,
+                                                             "available":  false
+                                                         }
+                                                     ]
+                                    },
+                                    {
+                                        "name":  "کالزونه",
+                                        "description":  "",
+                                        "image":  "images/food/348.png",
+                                        "category":  "",
+                                        "categoryColor":  "#FFFFFF",
+                                        "variants":  [
+                                                         {
+                                                             "name":  ".",
+                                                             "price":  350,
+                                                             "available":  false
+                                                         }
+                                                     ]
+                                    },
+                                    {
+                                        "name":  "سوپر اسنک",
+                                        "description":  "",
+                                        "image":  "images/food/187.png",
+                                        "category":  "فرآوری",
+                                        "categoryColor":  "#D1B79A",
+                                        "variants":  [
+                                                         {
+                                                             "name":  ".",
+                                                             "price":  328,
+                                                             "available":  true
+                                                         }
+                                                     ]
+                                    },
+                                    {
+                                        "name":  "هات رول",
+                                        "description":  "",
+                                        "image":  "",
+                                        "category":  "",
+                                        "categoryColor":  "#FFFFFF",
+                                        "variants":  [
+                                                         {
+                                                             "name":  ".",
+                                                             "price":  250,
+                                                             "available":  true
+                                                         }
+                                                     ]
+                                    }
+                                ]
+                  },
+                  {
+                      "name":  "برگر شاهر",
+                      "items":  [
+                                    {
+                                        "name":  "جاينت برگر",
+                                        "description":  "",
+                                        "image":  "images/food/360.png",
+                                        "category":  "گوشتی ها",
+                                        "categoryColor":  "#DFA9AD",
+                                        "variants":  [
+                                                         {
+                                                             "name":  "کلاسيکو",
+                                                             "price":  1080,
+                                                             "available":  true
+                                                         }
+                                                     ]
+                                    },
+                                    {
+                                        "name":  "آنيون برگر",
+                                        "description":  "",
+                                        "image":  "images/food/361.png",
+                                        "category":  "ماکیان",
+                                        "categoryColor":  "#E6C58F",
+                                        "variants":  [
+                                                         {
+                                                             "name":  "کلاسيکو",
+                                                             "price":  618,
+                                                             "available":  true
+                                                         }
+                                                     ]
+                                    },
+                                    {
+                                        "name":  "فردو برگر",
+                                        "description":  "",
+                                        "image":  "images/food/362.png",
+                                        "category":  "ماکیان",
+                                        "categoryColor":  "#E6C58F",
+                                        "variants":  [
+                                                         {
+                                                             "name":  "کلاسيکو",
+                                                             "price":  653,
+                                                             "available":  true
+                                                         }
+                                                     ]
+                                    },
+                                    {
+                                        "name":  "هات برگر",
+                                        "description":  "",
+                                        "image":  "images/food/363.png",
+                                        "category":  "ماکیان",
+                                        "categoryColor":  "#E6C58F",
+                                        "variants":  [
+                                                         {
+                                                             "name":  "کلاسيکو",
+                                                             "price":  673,
+                                                             "available":  true
+                                                         }
+                                                     ]
+                                    },
+                                    {
+                                        "name":  "رويال برگر",
+                                        "description":  "",
+                                        "image":  "images/food/350.png",
+                                        "category":  "گوشتی ها",
+                                        "categoryColor":  "#DFA9AD",
+                                        "variants":  [
+                                                         {
+                                                             "name":  "کلاسيکو",
+                                                             "price":  686,
+                                                             "available":  true
+                                                         }
+                                                     ]
+                                    },
+                                    {
+                                        "name":  "چيز برگر",
+                                        "description":  "",
+                                        "image":  "images/food/243.png",
+                                        "category":  "گوشتی ها",
+                                        "categoryColor":  "#DFA9AD",
+                                        "variants":  [
+                                                         {
+                                                             "name":  "کلاسيکو",
+                                                             "price":  624,
+                                                             "available":  true
+                                                         }
+                                                     ]
+                                    },
+                                    {
+                                        "name":  "برگر",
+                                        "description":  "",
+                                        "image":  "images/food/245.png",
+                                        "category":  "گوشتی ها",
+                                        "categoryColor":  "#DFA9AD",
+                                        "variants":  [
+                                                         {
+                                                             "name":  "کلاسيکو",
+                                                             "price":  586,
+                                                             "available":  true
+                                                         },
+                                                         {
+                                                             "name":  "سولو",
+                                                             "price":  337,
+                                                             "available":  true
+                                                         }
+                                                     ]
+                                    }
+                                ]
+                  },
+                  {
+                      "name":  "پاستا شاهر",
+                      "items":  [
+                                    {
+                                        "name":  "پاستا مک اند چيز",
+                                        "description":  "",
+                                        "image":  "images/food/306.png",
+                                        "category":  "فرآوری",
+                                        "categoryColor":  "#D1B79A",
+                                        "variants":  [
+                                                         {
+                                                             "name":  ".",
+                                                             "price":  387,
+                                                             "available":  false
+                                                         }
+                                                     ]
+                                    },
+                                    {
+                                        "name":  "پاستا بيف آلفردو",
+                                        "description":  "",
+                                        "image":  "images/food/188.png",
+                                        "category":  "گوشتی ها",
+                                        "categoryColor":  "#DFA9AD",
+                                        "variants":  [
+                                                         {
+                                                             "name":  ".",
+                                                             "price":  628,
+                                                             "available":  false
+                                                         }
+                                                     ]
+                                    },
+                                    {
+                                        "name":  "پاستا چيکن آلفردو",
+                                        "description":  "",
+                                        "image":  "images/food/189.png",
+                                        "category":  "ماکیان",
+                                        "categoryColor":  "#E6C58F",
+                                        "variants":  [
+                                                         {
+                                                             "name":  ".",
+                                                             "price":  527,
+                                                             "available":  false
+                                                         }
+                                                     ]
+                                    },
+                                    {
+                                        "name":  "پاستا چيکن پستو",
+                                        "description":  "",
+                                        "image":  "images/food/190.png",
+                                        "category":  "ماکیان",
+                                        "categoryColor":  "#E6C58F",
+                                        "variants":  [
+                                                         {
+                                                             "name":  ".",
+                                                             "price":  543,
+                                                             "available":  false
+                                                         }
+                                                     ]
+                                    },
+                                    {
+                                        "name":  "نودل",
+                                        "description":  "",
+                                        "image":  "images/food/333.png",
+                                        "category":  "",
+                                        "categoryColor":  "#FFFFFF",
+                                        "variants":  [
+                                                         {
+                                                             "name":  ".",
+                                                             "price":  250,
+                                                             "available":  false
+                                                         }
+                                                     ]
+                                    },
+                                    {
+                                        "name":  "لينگوييني",
+                                        "description":  "",
+                                        "image":  "images/food/346.png",
+                                        "category":  "",
+                                        "categoryColor":  "#FFFFFF",
+                                        "variants":  [
+                                                         {
+                                                             "name":  ".",
+                                                             "price":  250,
+                                                             "available":  false
+                                                         }
+                                                     ]
+                                    }
+                                ]
+                  },
+                  {
+                      "name":  "ساندويچ شاهر",
+                      "items":  [
+                                    {
+                                        "name":  "ساندويچ هندي",
+                                        "description":  "",
+                                        "image":  "images/food/268.png",
+                                        "category":  "فرآوری",
+                                        "categoryColor":  "#D1B79A",
+                                        "variants":  [
+                                                         {
+                                                             "name":  "کلاسيکو",
+                                                             "price":  287,
+                                                             "available":  false
+                                                         }
+                                                     ]
+                                    },
+                                    {
+                                        "name":  "ساندويچ بندري",
+                                        "description":  "",
+                                        "image":  "images/food/263.png",
+                                        "category":  "فرآوری",
+                                        "categoryColor":  "#D1B79A",
+                                        "variants":  [
+                                                         {
+                                                             "name":  "کلاسيکو",
+                                                             "price":  286,
+                                                             "available":  true
+                                                         }
+                                                     ]
+                                    },
+                                    {
+                                        "name":  "ساندويچ هات داگ شکاري",
+                                        "description":  "",
+                                        "image":  "images/food/239.png",
+                                        "category":  "فرآوری",
+                                        "categoryColor":  "#D1B79A",
+                                        "variants":  [
+                                                         {
+                                                             "name":  "کلاسيکو",
+                                                             "price":  338,
+                                                             "available":  false
+                                                         }
+                                                     ]
+                                    },
+                                    {
+                                        "name":  "پنيني",
+                                        "description":  "",
+                                        "image":  "",
+                                        "category":  "",
+                                        "categoryColor":  "#FFFFFF",
+                                        "variants":  [
+                                                         {
+                                                             "name":  "کلاسيکو",
+                                                             "price":  250,
+                                                             "available":  false
+                                                         }
+                                                     ]
+                                    },
+                                    {
+                                        "name":  "چيکن فرايز",
+                                        "description":  "",
+                                        "image":  "",
+                                        "category":  "ماکیان",
+                                        "categoryColor":  "#E6C58F",
+                                        "variants":  [
+                                                         {
+                                                             "name":  "کلاسيکو",
+                                                             "price":  350,
+                                                             "available":  false
+                                                         }
+                                                     ]
+                                    },
+                                    {
+                                        "name":  "يرآلما",
+                                        "description":  "",
+                                        "image":  "",
+                                        "category":  "",
+                                        "categoryColor":  "#FFFFFF",
+                                        "variants":  [
+                                                         {
+                                                             "name":  "کلاسيکو",
+                                                             "price":  250,
+                                                             "available":  true
+                                                         }
+                                                     ]
+                                    },
+                                    {
+                                        "name":  "ساندويچ ماکاروني",
+                                        "description":  "",
+                                        "image":  "",
+                                        "category":  "",
+                                        "categoryColor":  "#FFFFFF",
+                                        "variants":  [
+                                                         {
+                                                             "name":  "کلاسيکو",
+                                                             "price":  250,
+                                                             "available":  false
+                                                         }
+                                                     ]
+                                    },
+                                    {
+                                        "name":  "ساندويچ کوکتل",
+                                        "description":  "",
+                                        "image":  "images/food/241.png",
+                                        "category":  "فرآوری",
+                                        "categoryColor":  "#D1B79A",
+                                        "variants":  [
+                                                         {
+                                                             "name":  "کلاسيکو",
+                                                             "price":  250,
+                                                             "available":  true
+                                                         }
+                                                     ]
+                                    },
+                                    {
+                                        "name":  "ساندويچ کالباس",
+                                        "description":  "",
+                                        "image":  "images/food/242.png",
+                                        "category":  "فرآوری",
+                                        "categoryColor":  "#D1B79A",
+                                        "variants":  [
+                                                         {
+                                                             "name":  "کلاسيکو",
+                                                             "price":  250,
+                                                             "available":  true
+                                                         }
+                                                     ]
+                                    }
+                                ]
+                  },
+                  {
+                      "name":  "کته شاهر",
+                      "items":  [
+                                    {
+                                        "name":  "جوج کته",
+                                        "description":  "",
+                                        "image":  "images/food/328.png",
+                                        "category":  "ماکیان",
+                                        "categoryColor":  "#E6C58F",
+                                        "variants":  [
+                                                         {
+                                                             "name":  ".",
+                                                             "price":  350,
+                                                             "available":  true
+                                                         }
+                                                     ]
+                                    },
+                                    {
+                                        "name":  "کته برياني",
+                                        "description":  "",
+                                        "image":  "images/food/327.png",
+                                        "category":  "گوشتی ها",
+                                        "categoryColor":  "#DFA9AD",
+                                        "variants":  [
+                                                         {
+                                                             "name":  ".",
+                                                             "price":  350,
+                                                             "available":  true
+                                                         }
+                                                     ]
+                                    },
+                                    {
+                                        "name":  "کته استامبولي",
+                                        "description":  "",
+                                        "image":  "images/food/340.png",
+                                        "category":  "",
+                                        "categoryColor":  "#FFFFFF",
+                                        "variants":  [
+                                                         {
+                                                             "name":  ".",
+                                                             "price":  250,
+                                                             "available":  true
+                                                         }
+                                                     ]
+                                    }
+                                ]
+                  },
+                  {
+                      "name":  "لازانيا شاهر",
+                      "items":  [
+                                    {
+                                        "name":  "لازانيا شاهر",
+                                        "description":  "5 ورق لازانيا، قارچ، 150 گرم ميکس گوشت و مرغ چرخ شده، پنير پيتزا، سس",
+                                        "image":  "images/food/307.png",
+                                        "category":  "گوشتی ها",
+                                        "categoryColor":  "#DFA9AD",
+                                        "variants":  [
+                                                         {
+                                                             "name":  ".",
+                                                             "price":  674,
+                                                             "available":  true
+                                                         }
+                                                     ]
+                                    }
+                                ]
+                  }
+              ],
+    "breakfast":  [
+                      {
+                          "name":  "OMELET",
+                          "items":  [
+                                        {
+                                            "name":  "پپرو",
+                                            "description":  "soon",
+                                            "image":  "",
+                                            "category":  "",
+                                            "categoryColor":  "#FFFFFF",
+                                            "variants":  [
+                                                             {
+                                                                 "name":  "دانشجويي",
+                                                                 "price":  206,
+                                                                 "available":  true
+                                                             },
+                                                             {
+                                                                 "name":  ".",
+                                                                 "price":  274,
+                                                                 "available":  true
+                                                             }
+                                                         ]
+                                        },
+                                        {
+                                            "name":  "چيتو",
+                                            "description":  "soon",
+                                            "image":  "images/breakfast/381.png",
+                                            "category":  "",
+                                            "categoryColor":  "#FFFFFF",
+                                            "variants":  [
+                                                             {
+                                                                 "name":  "دانشجويي",
+                                                                 "price":  197,
+                                                                 "available":  true
+                                                             },
+                                                             {
+                                                                 "name":  ".",
+                                                                 "price":  263,
+                                                                 "available":  true
+                                                             }
+                                                         ]
+                                        },
+                                        {
+                                            "name":  "سوسيو",
+                                            "description":  "نان تنوري شاهر، تخم مرغ، سوسيس، سس گوجه",
+                                            "image":  "",
+                                            "category":  "",
+                                            "categoryColor":  "#FFFFFF",
+                                            "variants":  [
+                                                             {
+                                                                 "name":  "دانشجويي",
+                                                                 "price":  188,
+                                                                 "available":  true
+                                                             },
+                                                             {
+                                                                 "name":  ".",
+                                                                 "price":  251,
+                                                                 "available":  true
+                                                             }
+                                                         ]
+                                        },
+                                        {
+                                            "name":  "پوتيو",
+                                            "description":  "soon",
+                                            "image":  "",
+                                            "category":  "",
+                                            "categoryColor":  "#FFFFFF",
+                                            "variants":  [
+                                                             {
+                                                                 "name":  "دانشجويي",
+                                                                 "price":  178,
+                                                                 "available":  true
+                                                             },
+                                                             {
+                                                                 "name":  ".",
+                                                                 "price":  237,
+                                                                 "available":  true
+                                                             }
+                                                         ]
+                                        },
+                                        {
+                                            "name":  "توماتو",
+                                            "description":  "نان تنوري شاهر، تخم مرغ، سس گوجه",
+                                            "image":  "images/breakfast/384.png",
+                                            "category":  "",
+                                            "categoryColor":  "#FFFFFF",
+                                            "variants":  [
+                                                             {
+                                                                 "name":  "دانشجويي",
+                                                                 "price":  146,
+                                                                 "available":  true
+                                                             },
+                                                             {
+                                                                 "name":  ".",
+                                                                 "price":  194,
+                                                                 "available":  true
+                                                             }
+                                                         ]
+                                        },
+                                        {
+                                            "name":  "پستو",
+                                            "description":  "soon",
+                                            "image":  "images/breakfast/410.png",
+                                            "category":  "",
+                                            "categoryColor":  "#FFFFFF",
+                                            "variants":  [
+                                                             {
+                                                                 "name":  ".",
+                                                                 "price":  346,
+                                                                 "available":  true
+                                                             }
+                                                         ]
+                                        },
+                                        {
+                                            "name":  "آلفردو",
+                                            "description":  "soon",
+                                            "image":  "images/breakfast/411.png",
+                                            "category":  "",
+                                            "categoryColor":  "#FFFFFF",
+                                            "variants":  [
+                                                             {
+                                                                 "name":  ".",
+                                                                 "price":  346,
+                                                                 "available":  true
+                                                             }
+                                                         ]
+                                        }
+                                    ]
+                      },
+                      {
+                          "name":  "FRESH",
+                          "items":  [
+                                        {
+                                            "name":  "شوکوبنا",
+                                            "description":  "نان تنوري شاهر، شکلات صبحانه، موز",
+                                            "image":  "images/breakfast/385.png",
+                                            "category":  "",
+                                            "categoryColor":  "#FFFFFF",
+                                            "variants":  [
+                                                             {
+                                                                 "name":  "دانشجويي",
+                                                                 "price":  146,
+                                                                 "available":  true
+                                                             },
+                                                             {
+                                                                 "name":  ".",
+                                                                 "price":  194,
+                                                                 "available":  true
+                                                             }
+                                                         ]
+                                        },
+                                        {
+                                            "name":  "پيناتو",
+                                            "description":  "نان تنوري شاهر، کره بادام زميني، موز",
+                                            "image":  "images/breakfast/387.png",
+                                            "category":  "",
+                                            "categoryColor":  "#FFFFFF",
+                                            "variants":  [
+                                                             {
+                                                                 "name":  "دانشجويي",
+                                                                 "price":  131,
+                                                                 "available":  true
+                                                             },
+                                                             {
+                                                                 "name":  ".",
+                                                                 "price":  174,
+                                                                 "available":  true
+                                                             }
+                                                         ]
+                                        },
+                                        {
+                                            "name":  "پاورما",
+                                            "description":  "نان تنوري شاهر، ارده کنجد، شيره خرما",
+                                            "image":  "images/breakfast/394.png",
+                                            "category":  "",
+                                            "categoryColor":  "#FFFFFF",
+                                            "variants":  [
+                                                             {
+                                                                 "name":  "دانشجويي",
+                                                                 "price":  126,
+                                                                 "available":  true
+                                                             },
+                                                             {
+                                                                 "name":  ".",
+                                                                 "price":  168,
+                                                                 "available":  true
+                                                             }
+                                                         ]
+                                        },
+                                        {
+                                            "name":  "مارمالو",
+                                            "description":  "نان تنوري شاهر، خامه صبحانه، مارمالو",
+                                            "image":  "images/breakfast/395.png",
+                                            "category":  "",
+                                            "categoryColor":  "#FFFFFF",
+                                            "variants":  [
+                                                             {
+                                                                 "name":  "دانشجويي",
+                                                                 "price":  110,
+                                                                 "available":  true
+                                                             },
+                                                             {
+                                                                 "name":  ".",
+                                                                 "price":  146,
+                                                                 "available":  true
+                                                             }
+                                                         ]
+                                        },
+                                        {
+                                            "name":  "فتير",
+                                            "description":  "نان تنوري شاهر، خيار، گوجه، پنير خامه‌اي",
+                                            "image":  "images/breakfast/391.png",
+                                            "category":  "",
+                                            "categoryColor":  "#FFFFFF",
+                                            "variants":  [
+                                                             {
+                                                                 "name":  "دانشجويي",
+                                                                 "price":  100,
+                                                                 "available":  true
+                                                             },
+                                                             {
+                                                                 "name":  ".",
+                                                                 "price":  133,
+                                                                 "available":  true
+                                                             }
+                                                         ]
+                                        }
+                                    ]
+                      },
+                      {
+                          "name":  "SUNNY",
+                          "items":  [
+                                        {
+                                            "name":  "ديتو",
+                                            "description":  "نان تنوري شاهر، تخم مرغ، خرما، گردو، سس گوجه",
+                                            "image":  "images/breakfast/373.png",
+                                            "category":  "",
+                                            "categoryColor":  "#FFFFFF",
+                                            "variants":  [
+                                                             {
+                                                                 "name":  "دانشجويي",
+                                                                 "price":  182,
+                                                                 "available":  true
+                                                             },
+                                                             {
+                                                                 "name":  ".",
+                                                                 "price":  243,
+                                                                 "available":  true
+                                                             }
+                                                         ]
+                                        },
+                                        {
+                                            "name":  "سونيو",
+                                            "description":  "نان تنوري شاهر، تخم مرغ، سوسيس،قارچ، فلفل دلمه‌اي",
+                                            "image":  "images/breakfast/374.png",
+                                            "category":  "",
+                                            "categoryColor":  "#FFFFFF",
+                                            "variants":  [
+                                                             {
+                                                                 "name":  "دانشجويي",
+                                                                 "price":  156,
+                                                                 "available":  true
+                                                             },
+                                                             {
+                                                                 "name":  ".",
+                                                                 "price":  208,
+                                                                 "available":  true
+                                                             }
+                                                         ]
+                                        },
+                                        {
+                                            "name":  "يوناني",
+                                            "description":  "نان تنوري شاهر، تخم مرغ، گوجه، سس گوجه، ريحان، پياز",
+                                            "image":  "images/breakfast/375.png",
+                                            "category":  "",
+                                            "categoryColor":  "#FFFFFF",
+                                            "variants":  [
+                                                             {
+                                                                 "name":  "دانشجويي",
+                                                                 "price":  128,
+                                                                 "available":  true
+                                                             },
+                                                             {
+                                                                 "name":  ".",
+                                                                 "price":  171,
+                                                                 "available":  true
+                                                             }
+                                                         ]
+                                        },
+                                        {
+                                            "name":  "يومورتا",
+                                            "description":  "نان تنوري شاهر، تخم مرغ، قارچ، فلفل دلمه‌اي، سس گوجه",
+                                            "image":  "images/breakfast/378.png",
+                                            "category":  "",
+                                            "categoryColor":  "#FFFFFF",
+                                            "variants":  [
+                                                             {
+                                                                 "name":  "دانشجويي",
+                                                                 "price":  100,
+                                                                 "available":  true
+                                                             },
+                                                             {
+                                                                 "name":  ".",
+                                                                 "price":  133,
+                                                                 "available":  true
+                                                             }
+                                                         ]
+                                        },
+                                        {
+                                            "name":  "صبحانه ويژه شاهر",
+                                            "description":  "نان تنوري شاهر، بيکن، کوکتل، تخم مرغ، خوراک لوبيا، قارچ، پنير پيتزا، سس مارينارا",
+                                            "image":  "images/breakfast/412.png",
+                                            "category":  "",
+                                            "categoryColor":  "#FFFFFF",
+                                            "variants":  [
+                                                             {
+                                                                 "name":  "دانشجويي",
+                                                                 "price":  297,
+                                                                 "available":  true
+                                                             },
+                                                             {
+                                                                 "name":  ".",
+                                                                 "price":  395,
+                                                                 "available":  true
+                                                             }
+                                                         ]
+                                        },
+                                        {
+                                            "name":  "وجيتو",
+                                            "description":  "soon",
+                                            "image":  "",
+                                            "category":  "",
+                                            "categoryColor":  "#FFFFFF",
+                                            "variants":  [
+                                                             {
+                                                                 "name":  ".",
+                                                                 "price":  152,
+                                                                 "available":  true
+                                                             },
+                                                             {
+                                                                 "name":  "دانشجويي",
+                                                                 "price":  114,
+                                                                 "available":  true
+                                                             }
+                                                         ]
+                                        }
+                                    ]
+                      }
+                  ],
+    "cafe":  [
+                 {
+                     "name":  "کافه شاهر",
+                     "items":  [
+                                   {
+                                       "name":  "وايت چاکلت",
+                                       "description":  "",
+                                       "image":  "images/cafe/318.png",
+                                       "category":  "",
+                                       "categoryColor":  "#FFFFFF",
+                                       "variants":  [
+                                                        {
+                                                            "name":  ".",
+                                                            "price":  253,
+                                                            "available":  true
+                                                        }
+                                                    ]
+                                   },
+                                   {
+                                       "name":  "چاي ماسالا",
+                                       "description":  "",
+                                       "image":  "images/cafe/319.png",
+                                       "category":  "",
+                                       "categoryColor":  "#FFFFFF",
+                                       "variants":  [
+                                                        {
+                                                            "name":  ".",
+                                                            "price":  223,
+                                                            "available":  true
+                                                        }
+                                                    ]
+                                   },
+                                   {
+                                       "name":  "شيرعسل",
+                                       "description":  "",
+                                       "image":  "images/cafe/321.png",
+                                       "category":  "",
+                                       "categoryColor":  "#FFFFFF",
+                                       "variants":  [
+                                                        {
+                                                            "name":  ".",
+                                                            "price":  208,
+                                                            "available":  true
+                                                        }
+                                                    ]
+                                   },
+                                   {
+                                       "name":  "چاي نبات",
+                                       "description":  "",
+                                       "image":  "images/cafe/323.png",
+                                       "category":  "",
+                                       "categoryColor":  "#FFFFFF",
+                                       "variants":  [
+                                                        {
+                                                            "name":  ".",
+                                                            "price":  57,
+                                                            "available":  true
+                                                        }
+                                                    ]
+                                   },
+                                   {
+                                       "name":  "آمريکانو",
+                                       "description":  "",
+                                       "image":  "images/cafe/370.png",
+                                       "category":  "",
+                                       "categoryColor":  "#FFFFFF",
+                                       "variants":  [
+                                                        {
+                                                            "name":  ".",
+                                                            "price":  108,
+                                                            "available":  true
+                                                        }
+                                                    ]
+                                   },
+                                   {
+                                       "name":  "موکا",
+                                       "description":  "",
+                                       "image":  "images/cafe/371.png",
+                                       "category":  "",
+                                       "categoryColor":  "#FFFFFF",
+                                       "variants":  [
+                                                        {
+                                                            "name":  ".",
+                                                            "price":  128,
+                                                            "available":  true
+                                                        }
+                                                    ]
+                                   },
+                                   {
+                                       "name":  "کاپوچينو",
+                                       "description":  "",
+                                       "image":  "images/cafe/315.png",
+                                       "category":  "",
+                                       "categoryColor":  "#FFFFFF",
+                                       "variants":  [
+                                                        {
+                                                            "name":  ".",
+                                                            "price":  234,
+                                                            "available":  true
+                                                        }
+                                                    ]
+                                   },
+                                   {
+                                       "name":  "لته",
+                                       "description":  "",
+                                       "image":  "images/cafe/316.png",
+                                       "category":  "",
+                                       "categoryColor":  "#FFFFFF",
+                                       "variants":  [
+                                                        {
+                                                            "name":  ".",
+                                                            "price":  268,
+                                                            "available":  true
+                                                        }
+                                                    ]
+                                   },
+                                   {
+                                       "name":  "هات چاکلت",
+                                       "description":  "",
+                                       "image":  "images/cafe/317.png",
+                                       "category":  "",
+                                       "categoryColor":  "#FFFFFF",
+                                       "variants":  [
+                                                        {
+                                                            "name":  ".",
+                                                            "price":  247,
+                                                            "available":  true
+                                                        }
+                                                    ]
+                                   },
+                                   {
+                                       "name":  "اسپرسو",
+                                       "description":  "",
+                                       "image":  "images/cafe/313.png",
+                                       "category":  "",
+                                       "categoryColor":  "#FFFFFF",
+                                       "variants":  [
+                                                        {
+                                                            "name":  "تک",
+                                                            "price":  87,
+                                                            "available":  true
+                                                        },
+                                                        {
+                                                            "name":  "دبل",
+                                                            "price":  108,
+                                                            "available":  true
+                                                        }
+                                                    ]
+                                   }
+                               ]
+                 }
+             ]
+}
