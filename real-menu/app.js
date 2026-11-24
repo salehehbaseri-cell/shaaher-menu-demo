@@ -75,7 +75,7 @@ function getVisibleGroups() {
     );
 }
 
-function createImage(item) {
+function createImage(item, priority = false) {
     const wrapper = createElement("div", "menu-image");
 
     if (item.image) {
@@ -83,7 +83,16 @@ function createImage(item) {
 
         image.src = "./" + item.image;
         image.alt = item.name || "";
-        image.loading = "lazy";
+
+        image.decoding = "async";
+
+        if (priority) {
+            image.loading = "eager";
+            image.fetchPriority = "high";
+        } else {
+            image.loading = "lazy";
+            image.fetchPriority = "auto";
+        }
 
         image.onerror = () => {
             image.remove();
@@ -152,7 +161,7 @@ function createVariants(item) {
     return container;
 }
 
-function createItemCard(item) {
+function createItemCard(item, priority = false) {
     const card = createElement("article", "menu-card");
 
     const content = createElement(
@@ -180,7 +189,7 @@ function createItemCard(item) {
 
     content.appendChild(createVariants(item));
 
-    card.appendChild(createImage(item));
+    card.appendChild(createImage(item, priority));
     card.appendChild(content);
 
     return card;
@@ -286,6 +295,7 @@ function renderMenu() {
     menuContainer.innerHTML = "";
 
     let totalItems = 0;
+    let firstGroup = true;
 
     groups.forEach(group => {
         const section = createElement(
@@ -304,10 +314,17 @@ function renderMenu() {
             "menu-grid"
         );
 
-        group.items.forEach(item => {
-            grid.appendChild(createItemCard(item));
+        group.items.forEach((item, index) => {
+            const priority = firstGroup && index < 4;
+
+            grid.appendChild(
+                createItemCard(item, priority)
+            );
+
             totalItems++;
         });
+
+        firstGroup = false;
 
         section.appendChild(heading);
         section.appendChild(grid);
