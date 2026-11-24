@@ -1,0 +1,255 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>منوی کافه شاهر</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Vazirmatn', sans-serif;
+    background: #171313;
+    color: #f7eee3;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 55px 20px 35px;
+    background: radial-gradient(ellipse at top, #493020, #171313 75%);
+}
+
+.logo {
+    color: #d8b77b;
+    font-size: 38px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+.subtitle {
+    color: #b9a58c;
+    font-size: 13px;
+    margin-top: 8px;
+    letter-spacing: 2px;
+}
+
+.line {
+    width: 65px;
+    height: 2px;
+    background: #bd9656;
+    margin: 25px auto 0;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 25px 18px 60px;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 35px;
+}
+
+.categories button {
+    background: #28201d;
+    color: #d9c9b5;
+    border: 1px solid #493a30;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-family: inherit;
+    cursor: pointer;
+    transition: .25s;
+}
+
+.categories button.active,
+.categories button:hover {
+    background: #b58a50;
+    color: #1b1511;
+    border-color: #b58a50;
+}
+
+.section-title {
+    color: #d8b77b;
+    font-size: 21px;
+    margin-bottom: 20px;
+    padding-right: 12px;
+    border-right: 3px solid #bd9656;
+}
+
+.menu-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+}
+
+.item {
+    background: linear-gradient(135deg, #302622, #211b18);
+    border: 1px solid #49382c;
+    border-radius: 15px;
+    padding: 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
+.item h3 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.item p {
+    font-size: 11px;
+    color: #ad9a86;
+    margin-top: 7px;
+}
+
+.price {
+    color: #d8b77b;
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+footer {
+    text-align: center;
+    color: #8f7c6c;
+    font-size: 11px;
+    padding: 25px;
+    border-top: 1px solid #332720;
+}
+
+@media(max-width: 600px) {
+    header {
+        padding-top: 40px;
+    }
+
+    .logo {
+        font-size: 32px;
+    }
+
+    .menu-list {
+        grid-template-columns: 1fr;
+    }
+
+    .categories {
+        gap: 7px;
+    }
+
+    .categories button {
+        padding: 9px 14px;
+        font-size: 12px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">کافه شاهر</div>
+    <div class="subtitle">SHA AHER CAFE</div>
+    <div class="line"></div>
+</header>
+
+<main>
+
+    <nav class="categories">
+        <button class="active" onclick="showCategory('all',this)">همه</button>
+        <button onclick="showCategory('food',this)">غذاها</button>
+        <button onclick="showCategory('breakfast',this)">صبحانه</button>
+        <button onclick="showCategory('drinks',this)">نوشیدنی‌ها</button>
+    </nav>
+
+    <h2 class="section-title">پیشنهادهای کافه شاهر</h2>
+
+    <section class="menu-list" id="menu">
+
+        <article class="item" data-category="food">
+            <div>
+                <h3>پیتزا مخصوص</h3>
+                <p>ترکیبی از طعم‌های محبوب</p>
+            </div>
+            <div class="price">۲۸۰ هزار</div>
+        </article>
+
+        <article class="item" data-category="food">
+            <div>
+                <h3>برگر کلاسیک</h3>
+                <p>گوشت تازه و مخلفات مخصوص</p>
+            </div>
+            <div class="price">۲۲۰ هزار</div>
+        </article>
+
+        <article class="item" data-category="breakfast">
+            <div>
+                <h3>املت شاهر</h3>
+                <p>صبحانه‌ای دلچسب و تازه</p>
+            </div>
+            <div class="price">۱۵۰ هزار</div>
+        </article>
+
+        <article class="item" data-category="breakfast">
+            <div>
+                <h3>نیمرو سبزیجات</h3>
+                <p>ترکیب تخم‌مرغ و سبزیجات</p>
+            </div>
+            <div class="price">۱۳۰ هزار</div>
+        </article>
+
+        <article class="item" data-category="drinks">
+            <div>
+                <h3>کاپوچینو</h3>
+                <p>قهوه و فوم شیر</p>
+            </div>
+            <div class="price">۱۱۰ هزار</div>
+        </article>
+
+        <article class="item" data-category="drinks">
+            <div>
+                <h3>هات چاکلت</h3>
+                <p>شکلات گرم و غلیظ</p>
+            </div>
+            <div class="price">۱۲۰ هزار</div>
+        </article>
+
+    </section>
+
+</main>
+
+<footer>
+    SHA AHER CAFE · DIGITAL MENU
+</footer>
+
+<script>
+function showCategory(category, button) {
+    document.querySelectorAll('.categories button')
+        .forEach(btn => btn.classList.remove('active'));
+
+    button.classList.add('active');
+
+    document.querySelectorAll('.item').forEach(item => {
+        item.style.display =
+            category === 'all' ||
+            item.dataset.category === category
+            ? 'flex'
+            : 'none';
+    });
+}
+</script>
+
+</body>
+</html>
